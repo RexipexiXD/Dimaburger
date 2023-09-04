@@ -45,6 +45,18 @@ body{
     align-items: center;
 }
 
+.dimaburger{
+    width: 65px;
+}
+
+.fondonavbar{
+    background-color: black;
+}
+
+.letranavbar{
+    background-color: white;
+}
+
 .logo{
     width: 65px;
     display: inline-block;
