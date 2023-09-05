@@ -1,4 +1,4 @@
-body{
+body {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -8,24 +8,30 @@ body{
     background-repeat: no-repeat;
     background-size: 100vw;
     padding: 0;
-    font-family:'century gothic';
+    font-family: 'century gothic';
     flex-wrap: wrap;
-    ul{list-style-type: none;}
-    li{font-size: 1.25em;}
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        font-size: 1.25em;
+    }
 }
 
-.background-image{
+.background-image {
     margin: 0;
     padding: 0;
     position: absolute;
 }
 
-.home{
+.home {
     display: flex;
     flex-wrap: wrap;
 }
 
-.in-flex{
+.in-flex {
     min-width: 250px;
     flex: 1;
     padding: 25px;
@@ -36,83 +42,84 @@ body{
     padding: 25px;
 }
 
-.navegador{
-    display:flex;
-    flex-direction: row;
-    background-color: black;
-    margin: 0;
-    padding: 10px;
-    align-items: center;
-}
-
-.dimaburger{
+.dimaburger {
     width: 65px;
 }
 
-.fondonavbar{
+.fondonavbar {
     background-color: black;
 }
 
-.logo{
-    width: 65px;
-    display: inline-block;
-}
-
-.contenedor{
+.contenedor {
     background-color: burlywood;
-    font-size: 30px;
+    font-size: 25px;
     opacity: .9;
     border-radius: 25px;
 }
 
-.contenedor2{
+.contenedor2 {
     background-color: burlywood;
     font-size: 30px;
     opacity: .9;
     border-radius: 35px;
-    height: 325px;
+    height: 360px;
 }
 
-.navegador li{
+.navegador li {
     margin: 15px;
     list-style: none;
 
 }
 
-.navegador li a{
+.navegador li a {
     text-decoration: none;
     color: wheat;
     font-weight: 800;
 }
 
-.Cajamasprincipal{
+.Cajamasprincipal {
     display: flex;
-    padding: 5em 0;
+    padding: 3em 0;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-.CajaPrincipal{
+
+.CajaPrincipal {
     display: flex;
     flex-direction: row;
     background-color: white;
     border: 2px black;
-    width: 80%;
+    width: 90%;
     padding: 20px 100px 100px 100px;
     height: min-content;
 }
 
-.caja{
-    background-color: bisque;
-    border: 1px black;
-    width: 20%;
-    display: inline-block;
-    margin: 13px;
-    border-radius: 25px;
-    padding: 25px;
+.cajitas1 {
+    margin-right: 10px;
+    grid-area: cajita1;
 }
 
-.form{
+.cajitas2 {
+    margin-right: 10px;
+    grid-area: cajita2;
+}
+
+.cajitas3 {
+    margin-right: 10px;
+    grid-area: cajita3;
+}
+
+.cajitas4 {
+    margin-right: 10px;
+    grid-area: cajita4;
+}
+
+.cajitas5 {
+    grid-area: cajita5;
+}
+
+.form {
     display: flex;
     flex-direction: column;
     background-color: burlywood;
@@ -130,4 +137,43 @@ body{
 img {
     max-width: 100%;
     height: auto;
+}
+@media  (min-width:730px) and (max-width:1023px) {
+    .TituloPrincipal {
+        font-size: 50px;
+    }
+    .parrafoprincipal {
+        font-size: 35px;
+    }
+    .cajapadre {
+        display: grid;
+
+        grid-template-areas:
+            "cajita1 cajita2"
+            "cajita3 cajita4"
+            "cajita5 cajita5"
+        ;
+    }
+
+}
+
+@media (max-width:729px) {
+    .TituloPrincipal {
+        font-size: 50px;
+    }
+    .parrafoprincipal {
+        font-size: 35px;
+    }
+    .cajapadre {
+        display: grid;
+        place-items: center;
+        grid-template-areas:
+            "cajita1"
+            "cajita2"
+            "cajita3"
+            "cajita4"
+            "cajita5"
+        ;
+    }
+
 }
