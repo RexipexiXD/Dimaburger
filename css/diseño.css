@@ -86,7 +86,6 @@ body {
 .CajaPrincipal {
     display: flex;
     flex-direction: row;
-    background-color: white;
     border: 2px black;
     width: 90%;
     padding: 20px 100px 100px 100px;
@@ -115,16 +114,6 @@ body {
 
 .cajitas5 {
     grid-area: cajita5;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    background-color: burlywood;
-    font-size: 25px;
-    opacity: .9;
-    border-radius: 25px;
-    margin-top: 30px;
 }
 
 .container {
