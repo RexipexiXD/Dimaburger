@@ -1,0 +1,37 @@
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: $maincolor;
+    margin: $zeroabsolut;
+    background-image: url("https://w0.peakpx.com/wallpaper/129/278/HD-wallpaper-i-wantyou-inside-me-burger-cute-weird-food-random-awesome-simple-funny-burger.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    padding: $zeroabsolut;
+    font-family: 'century gothic';
+    flex-wrap: wrap;
+    padding-bottom: 200px;
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        font-size: 1.25em;
+    }
+}
+
+
+.dimaburger {
+    width: 65px;
+}
+
+.fondonavbar {
+    background-color: $black;
+}
+
+
+.footer{
+    background-color: $black;
+    position: absolute;
+}

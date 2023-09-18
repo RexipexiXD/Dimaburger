@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass",
-    "sass:watch": "sass --watch scss/boss.scss css/prueba.css"
+    "sass:watch": "sass --watch sass/boss.scss css/diseño.css"
   },
   "author": "",
   "license": "ISC",

@@ -1,0 +1,43 @@
+//colores
+$maincolor: firebrick;
+$black: black;
+$color-cont: burlywood;
+
+
+//tamaños
+$porcmax: 100%;
+$maxpx: 100px;
+$margpx: 10px;
+$zeroabsolut: 0;
+
+//contenedor
+
+$size: 25px;
+$margin: 40px;
+$opacity: .9;
+
+//mixin
+
+@mixin conteinergod ($size,$margin,$opacity){
+    background-color: $color-cont;
+    font-size: $size;
+    opacity: $opacity;
+    border-radius: $size;
+    margin-top: $margin;
+    margin-bottom: $margin;
+    padding: 10px;
+}
+
+
+@mixin cajita ($direc,$border,$padd,$height){
+    display: flex;
+    flex-direction: $direc;
+    border: $border;
+    width: $porcmax - 10%;
+    padding: $padd;
+    height: $height;
+}
+
+.CajaPrincipal{
+    @include cajita(row,2px black , 20px 100px 100px 100px ,min-content )
+}

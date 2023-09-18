@@ -1,0 +1,39 @@
+@media  (min-width:730px) and (max-width:1023px) {
+    .TituloPrincipal {
+        font-size: 50px;
+    }
+    .parrafoprincipal {
+        font-size: 35px;
+    }
+    .cajapadre {
+        display: grid;
+
+        grid-template-areas:
+            "cajita1 cajita2"
+            "cajita3 cajita4"
+            "cajita5 cajita5"
+        ;
+    }
+
+}
+
+@media (max-width:729px) {
+    .TituloPrincipal {
+        font-size: 50px;
+    }
+    .parrafoprincipal {
+        font-size: 35px;
+    }
+    .cajapadre {
+        display: grid;
+        place-items: center;
+        grid-template-areas:
+            "cajita1"
+            "cajita2"
+            "cajita3"
+            "cajita4"
+            "cajita5"
+        ;
+    }
+
+}

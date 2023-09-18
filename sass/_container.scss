@@ -1,0 +1,47 @@
+.contenedor{
+    @include conteinergod(25px, 40px, .9 )
+}
+
+.Cajamasprincipal {
+    display: flex;
+    padding: 3em 0;
+    justify-content: center;
+    align-items: center;
+    width: $porcmax;
+}
+
+.CajaPrincipal {
+    display: flex;
+    flex-direction: row;
+    border: 2px black;
+    width: 90%;
+    padding: 20px $maxpx $maxpx $maxpx;
+    height: min-content;
+}
+
+.cajitas1 {
+    margin-right: $margpx;
+    grid-area: cajita1;
+}
+
+.cajitas2 {
+    @extend .cajitas1;
+}
+
+.cajitas3 {
+    @extend .cajitas1;
+}
+
+.cajitas4 {
+    @extend .cajitas1;
+}
+
+.cajitas5 {
+    grid-area: cajita5;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
