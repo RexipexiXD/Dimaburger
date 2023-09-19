@@ -20,23 +20,27 @@
 }
 
 .cajitas1 {
-    margin-right: $margpx;
+    margin: $margpx;
     grid-area: cajita1;
 }
 
 .cajitas2 {
     @extend .cajitas1;
+    grid-area: cajita2;
 }
 
 .cajitas3 {
     @extend .cajitas1;
+    grid-area: cajita3;
 }
 
 .cajitas4 {
     @extend .cajitas1;
+    grid-area: cajita4;
 }
 
 .cajitas5 {
+    @extend .cajitas1;
     grid-area: cajita5;
 }
 

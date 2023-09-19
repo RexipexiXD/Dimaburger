@@ -1,39 +1,48 @@
-@media  (min-width:730px) and (max-width:1023px) {
+@media (min-width: 1024px) {
+    .cajapadre {
+        display: grid;
+        grid-gap: 20px 1px;
+        place-items: center;
+        grid-template-areas:
+        "cajita1 cajita2 cajita3"
+        "cajita4 cajita5";
+        }
+}
+
+@media (min-width: 730px) and (max-width: 1023px) {
     .TituloPrincipal {
-        font-size: 50px;
+        font-size: 25px;
     }
     .parrafoprincipal {
-        font-size: 35px;
+        font-size: 20px;
     }
     .cajapadre {
         display: grid;
-
+        grid-gap: 20px 5px;
+        place-items: center;
         grid-template-areas:
             "cajita1 cajita2"
             "cajita3 cajita4"
-            "cajita5 cajita5"
-        ;
+            "cajita5";
     }
-
 }
 
-@media (max-width:729px) {
+@media (max-width: 729px) {
     .TituloPrincipal {
-        font-size: 50px;
+        font-size: 25px;
     }
     .parrafoprincipal {
-        font-size: 35px;
+        font-size: 20px;
     }
     .cajapadre {
         display: grid;
+        grid-gap: 20px 5px;
         place-items: center;
         grid-template-areas:
             "cajita1"
             "cajita2"
             "cajita3"
             "cajita4"
-            "cajita5"
-        ;
+            "cajita5";
     }
-
 }
