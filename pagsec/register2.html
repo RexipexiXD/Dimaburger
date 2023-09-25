@@ -52,32 +52,35 @@
               </ul>
             </div>
           <div class="tab-content">
-            <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+            <div class="tab-pane fade show active" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
               <form>
                 <div class="form-outline mb-4">
-                  <input type="email" id="loginName" class="form-control" />
-                  <label class="form-label" for="loginName">Ingrese su nombre de usuario o email</label>
+                  <input type="text" id="registerName" class="form-control" />
+                  <label class="form-label" for="registerName">Nombre</label>
                 </div>
-          
                 <div class="form-outline mb-4">
-                  <input type="password" id="loginPassword" class="form-control" />
-                  <label class="form-label" for="loginPassword">Ingrese la contraseña</label>
+                  <input type="text" id="registerUsername" class="form-control" />
+                  <label class="form-label" for="registerUsername">Usuario</label>
                 </div>
-                <div class="row mb-4">
-                  <div class="col-md-6 d-flex justify-content-center">
-                    <div class="form-check mb-3 mb-md-0">
-                      <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
-                      <label class="form-check-label" for="loginCheck"> ¿Are you a robot? 😱  </label>
-                    </div>
-                  </div>
-                  <div class="col-md-6 d-flex justify-content-center">
-                    <a class="link-danger" href="../pagsec/olvcontra.html">¿Olvido su contraseña?</a>
-                  </div>
+                <div class="form-outline mb-4">
+                  <input type="email" id="registerEmail" class="form-control" />
+                  <label class="form-label" for="registerEmail"> Ingrese su Correo electronico</label>
                 </div>
-                <button type="submit" class="btn btn-danger btn-block mb-4">Ingresar</button>
-                <div class="text-center">
-                  <p>¿No esta logeado? <a class="link-danger" href="../pagsec/register2.html">¡Registrese!</a></p>
+                <div class="form-outline mb-4">
+                  <input type="password" id="registerPassword" class="form-control" />
+                  <label class="form-label" for="registerPassword"> Ingrese una Contraseña</label>
                 </div>
+                <div class="form-outline mb-4">
+                  <input type="password" id="registerRepeatPassword" class="form-control" />
+                  <label class="form-label" for="registerRepeatPassword">Repita la contraseña</label>
+                </div>
+                <div class="form-check d-flex justify-content-center mb-4">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="registerCheck" checked aria-describedby="registerCheckHelpText"/>
+                  <label class="form-check-label" for="registerCheck">
+                    Acepta los terminos y condiciones.
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-danger btn-block mb-3">Registrarse</button>
               </form>
             </div>
           </div>

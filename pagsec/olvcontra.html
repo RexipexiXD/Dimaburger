@@ -41,43 +41,14 @@
     <div class="container-fluid">
         <form class="contenedor">
             <h1 class="TituloPrincipal">Ingrese sus datos</h1>
-            <div class="d-grid gap-2">
-              <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
-                <li class="nav-item " role="presentation">
-                  <a class="btn btn-danger btn-default btn-block w-75" id="tab-login" data-mdb-toggle="pill" href="../pagsec/registrate.html" role="tab" aria-controls="pills-login" aria-selected="true">Ingresar</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="btn btn-danger btn-default btn-block w-75" id="tab-register" data-mdb-toggle="pill" href="../pagsec/register2.html" role="tab" aria-controls="pills-register" aria-selected="false">Registrarse</a>
-                </li>
-              </ul>
-            </div>
-          <div class="tab-content">
-            <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+                <p> En caso de que se le haya olvidado el nombre de usuario o la constraseña. Ingrese tu correo electronico para que podamos pasarte un codigo el cual nos permitira enviarle un link con el cual podra restaurar el nombre de Usuario y la contraseña.</p>
+            <div class="tab-pane fade show active" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
               <form>
                 <div class="form-outline mb-4">
-                  <input type="email" id="loginName" class="form-control" />
-                  <label class="form-label" for="loginName">Ingrese su nombre de usuario o email</label>
+                  <input type="password" id="registerRepeatPassword" class="form-control" />
+                  <label class="form-label" for="registerRepeatPassword">Ingrese su correo electronico</label>
                 </div>
-          
-                <div class="form-outline mb-4">
-                  <input type="password" id="loginPassword" class="form-control" />
-                  <label class="form-label" for="loginPassword">Ingrese la contraseña</label>
-                </div>
-                <div class="row mb-4">
-                  <div class="col-md-6 d-flex justify-content-center">
-                    <div class="form-check mb-3 mb-md-0">
-                      <input class="form-check-input" type="checkbox" value="" id="loginCheck" checked />
-                      <label class="form-check-label" for="loginCheck"> ¿Are you a robot? 😱  </label>
-                    </div>
-                  </div>
-                  <div class="col-md-6 d-flex justify-content-center">
-                    <a class="link-danger" href="../pagsec/olvcontra.html">¿Olvido su contraseña?</a>
-                  </div>
-                </div>
-                <button type="submit" class="btn btn-danger btn-block mb-4">Ingresar</button>
-                <div class="text-center">
-                  <p>¿No esta logeado? <a class="link-danger" href="../pagsec/register2.html">¡Registrese!</a></p>
-                </div>
+                <button type="submit" class="btn btn-danger btn-block mb-3">Enviar</button>
               </form>
             </div>
           </div>
