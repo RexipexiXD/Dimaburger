@@ -1,15 +1,14 @@
-@media (min-width: 1024px) {
+@media screen and (max-width: 2560px) and (min-width: 1024px) {
     .cajapadre {
         display: grid;
         grid-gap: 20px 1px;
         place-items: center;
         grid-template-areas:
-        "cajita1 cajita2 cajita3"
-        "cajita4 cajita5";
-        }
+        "cajita1 cajita2 cajita3 cajita4 cajita5";
+    }
 }
 
-@media (min-width: 730px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) and (min-width: 730px) {
     .TituloPrincipal {
         font-size: 25px;
     }
@@ -18,16 +17,16 @@
     }
     .cajapadre {
         display: grid;
-        grid-gap: 20px 5px;
+        grid-gap: 20px 1px;
         place-items: center;
         grid-template-areas:
-            "cajita1 cajita2"
-            "cajita3 cajita4"
-            "cajita5";
+        "cajita1 cajita2"
+        "cajita3 cajita4"
+        "cajita5 cajita5";
     }
 }
 
-@media (max-width: 729px) {
+@media screen and (max-width: 729px) and (min-width:105px) {
     .TituloPrincipal {
         font-size: 25px;
     }
@@ -36,7 +35,6 @@
     }
     .cajapadre {
         display: grid;
-        grid-gap: 20px 5px;
         place-items: center;
         grid-template-areas:
             "cajita1"
@@ -44,5 +42,12 @@
             "cajita3"
             "cajita4"
             "cajita5";
+    }
+}
+
+@media screen and (max-width: 144px) and (min-width:730px) {
+    .imagentrabajo1{
+        height: auto; 
+        max-width: 100%;
     }
 }

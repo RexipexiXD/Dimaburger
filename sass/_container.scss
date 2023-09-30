@@ -2,6 +2,14 @@
     @include conteinergod(25px, 40px, .9 )
 }
 
+.contenedor2{
+    @include conteinergod(25px, 40px, .9 )
+}
+
+.contenedor3{
+    @include conteinergod(25px, 40px, .9 )
+}
+
 .Cajamasprincipal {
     display: flex;
     padding: 3em 0;
@@ -10,17 +18,10 @@
     width: $porcmax;
 }
 
-.CajaPrincipal {
-    display: flex;
-    flex-direction: row;
-    border: 2px black;
-    width: 90%;
-    padding: 20px $maxpx $maxpx $maxpx;
-    height: min-content;
-}
-
 .cajitas1 {
     margin: $margpx;
+    width: 18rem; 
+    height: 35rem;
     grid-area: cajita1;
 }
 
@@ -48,4 +49,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.contenedorgod{
+    display: flex;
+    flex-wrap: wrap;
 }

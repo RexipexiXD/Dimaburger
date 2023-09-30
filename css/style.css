@@ -24,7 +24,7 @@ img {
 }
 
 
-@media  (min-width:730px) and (max-width:1023px) {
+/* @media  (min-width:730px) and (max-width:1023px) {
     .TituloPrincipal {
         font-size: 50px;
     }
@@ -62,4 +62,4 @@ img {
         ;
     }
 
-}
+} */

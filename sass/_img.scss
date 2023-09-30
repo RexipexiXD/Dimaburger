@@ -14,3 +14,28 @@
     display: flex;
     justify-content:right;
 }
+
+.img{
+    flex-grow: 1;
+    flex-basis: 200;
+    margin-top: 20px;
+}
+
+.imagentrabajo1{
+    flex-grow: 1;
+    max-width: 40%;
+    height: 400px;
+    float: right;
+}
+
+.imagentrabajo2{
+    max-width: 500px;
+    height: 250px;
+    float: left;
+}
+
+.imagentrabajo3{
+    max-width: 700px;
+    height: 300px;
+    float: right;
+}
